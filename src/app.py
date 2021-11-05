@@ -126,5 +126,5 @@ def cambiarTipoGrafico(mercado,ticker,radio):
 
 
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
+if __name__ == "__main__":    
+    app.run_server(host="0.0.0.0", debug=False, port=8080)
